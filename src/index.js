@@ -2,11 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {Router, Route, Switch} from 'react-router-dom';
+import {createBrowserHistory} from 'history';
 import * as serviceWorker from './serviceWorker';
+
+const history = createBrowserHistory();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router history={history}>
+      <Switch>
+        <Route
+          path="/:category?/"
+          render={(props) => {
+            return <App {...props} />;
+          }}
+        />
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
