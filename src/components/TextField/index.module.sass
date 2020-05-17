@@ -1,0 +1,55 @@
+.TextFieldRoot
+  width: 100%
+  position: relative
+  padding-top: 6px
+  &.disabled
+    opacity: 0.8
+  &.open
+    label
+      transform: scale(0.77) translate(0px, -24px)
+      background-color: white
+      padding: 0 5px
+  &.focus
+    label
+      color: rgba(26,172,0,0.8)
+    input
+      border: 1px solid rgba(26,172,0,0.8)
+      &::-webkit-input-placeholder
+        color: rgba(0, 0, 0, 0.3)
+  &.error
+    label
+      color: red
+    input
+      border: 1px solid red
+  label
+    position: absolute
+    top: 12px
+    left: 6px
+    font-size: 16px
+    line-height: 22px
+    transform-origin: left top 0px
+    transition: 300ms ease-out all
+    color: rgba(0, 0, 0, 0.3)
+    cursor: text
+    will-change: transform
+    padding: 0 5px
+    background-color: transparent
+  input
+    width: 100%
+    border: none
+    outline: none
+    border: 1px solid rgba(0, 0, 0, 0.1)
+    margin: 0
+    padding: 0
+    font-size: 14px
+    height: 34px
+    color: rgba(0, 0, 0, 0.87)
+    transition: 300ms ease-out all
+    background-color: transparent
+    border-radius: 6px
+    text-indent: 9px
+    padding-top: 1px
+  .errorDescription
+    color: red
+    font-size: 12px
+    margin-top: 5px
