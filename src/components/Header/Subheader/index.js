@@ -74,8 +74,8 @@ export default function Subheader({isLightMode}) {
       </div>
       <div className={styles.face}>
         <img
-          src="https://scontent-qro1-1.xx.fbcdn.net/v/t1.0-9/35922806_10214396043006138_6268627913814310912_n.jpg?_nc_cat=109&_nc_sid=174925&_nc_eui2=AeFlVN9FVLCd0Y7yGkGqrP__iA_kMlPvaRGID-QyU-9pEdGqFKztzwnJAEAatzd0nwE&_nc_ohc=XsE-3RBXNfUAX9PfkYZ&_nc_ht=scontent-qro1-1.xx&oh=61aaa044cd68c768e88e17738a1f7950&oe=5ECBC600"
-          alt=""
+          src="https://media-exp1.licdn.com/dms/image/C4E03AQGrrv_VpQr1ig/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=q_wFxyxcBkCj1CDYkDbi1ZhvgJODUH5GGVnYe807eE4"
+          alt="Fernando Robles Rivera"
         />
       </div>
     </div>
